@@ -1,5 +1,5 @@
 # Use a base image with Java and Maven installed
-FROM adoptopenjdk:11-jre-hotspot as build
+FROM openjdk:24-jdk-slim-bullseye as build
 
 # Set the working directory inside the container
 WORKDIR /app
